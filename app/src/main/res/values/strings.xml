@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ABND_Project9_InventoryApp</string>
+    <string name="empty_message1">Oh no! There\'s nothing here.</string>
+    <string name="empty_message2">Click the button to add inventory</string>
+    <string name="product_name_label">Product Name</string>
+    <string name="product_price_label">Price</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="supplier_name_label">Supplier</string>
+    <string name="supplier_phone_label">Phone</string>
+    <string name="list_item_sale_button_text">Sale</string>
+    <string name="edit_activity_title_new">Add Item</string>
+    <string name="edit_activity_title_existing">Edit Item</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="edit_insert_successful">Product added</string>
+    <string name="edit_insert_failed">Error adding product</string>
+
+    <string name="edit_update_successful">Product updated</string>
+    <string name="edit_update_failed">Error updating product</string>
+
+    <string name="unsaved_changes_msg">You have unsaved changes.  Discard your changes?</string>
+
+    <string name="edit_delete_successful">Product deleted</string>
+    <string name="edit_delete_failed">Error deleting product</string>
+
+    <string name="delete_dialog_msg">Delete?</string>
+
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+    <string name="no_values">You cannot leave all values empty</string>
+    <string name="productName_missing">You must enter a Product Name</string>
+    <string name="productPrice_missing">You must enter a Price</string>
+    <string name="productQty_missing">You must enter a quantity</string>
+    <string name="productSupplier_missing">You must enter a Supplier Name</string>
+    <string name="productSupplierPhone_missing">You must enter a Supplier Phone</string>
+    <string name="add_button_text">+</string>
+    <string name="subtract_button_text">-</string>
+    <string name="edit_product_hint">Product Name</string>
+    <string name="edit_price_hint">Product Price, e.g. 9.99</string>
+    <string name="edit_quantity_hint">Quantity on hand</string>
+    <string name="edit_supplier_name_hint">Supplier Name</string>
+    <string name="edit_supplier_phone_hint">Supplier Phone</string>
+    <string name="quanity_less_than_zero">Quantity cannot be less than 0</string>
+
+
+</resources>

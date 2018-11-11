@@ -1,0 +1,5 @@
+Code based on Udacity GWG Pets DB Lessons
+Empty activity photo source used under CC0 license:  https://www.pexels
+.com/photo/interior-of-empty-parking-lot-257636/
+
+Code for Sale Button Onclick based on: https://stackoverflow.com/questions/23236948/getting-position-of-click-and-custom-button-inside-a-list-using-custom-cursorada

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/list_item_quantity"
+        android:layout_width="@dimen/list_item_quantity_layoutWidth"
+        android:layout_height="@dimen/list_item_quantity_layoutHeight"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        tools:text="6" />
+
+    <LinearLayout
+        android:id="@+id/list_item_product_info_linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/list_item_product_info_marginLeft"
+        android:layout_marginStart="@dimen/list_item_product_info_marginStart"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            tools:text="Product Name" />
+
+        <TextView
+            android:id="@+id/list_item_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="9.99" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/list_item_saleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_saleButton_marginLeft"
+        android:layout_marginStart="@dimen/list_item_saleButton_marginStart"
+        android:focusable="false"
+        android:text="@string/list_item_sale_button_text" />
+
+
+</LinearLayout>

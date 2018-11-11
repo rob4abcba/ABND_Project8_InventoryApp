@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity"
+    android:paddingRight="@dimen/edit_constraintLayout_paddingRight">
+
+    <EditText
+        android:id="@+id/product_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_product_marginLeft"
+        android:layout_marginStart="@dimen/edit_product_marginStart"
+        android:layout_marginTop="@dimen/edit_product_marginTop"
+        android:ems="10"
+        android:hint="@string/edit_product_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Product Name" />
+
+    <EditText
+        android:id="@+id/product_price_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_price_marginLeft"
+        android:layout_marginStart="@dimen/edit_price_marginStart"
+        android:layout_marginTop="@dimen/edit_price_marginTop"
+        android:ems="10"
+        android:hint="@string/edit_price_hint"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_name_edit"
+        tools:text="9.99" />
+
+    <EditText
+        android:id="@+id/quantity_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_quantity_marginLeft"
+        android:layout_marginStart="@dimen/edit_quantity_marginStart"
+        android:layout_marginTop="@dimen/edit_quantity_marginTop"
+        android:ems="10"
+        android:hint="@string/edit_quantity_hint"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_price_edit"
+        tools:text="6" />
+
+    <EditText
+        android:id="@+id/supplier_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_supplier_name_marginLeft"
+        android:layout_marginStart="@dimen/edit_supplier_name_marginStart"
+        android:layout_marginTop="@dimen/edit_supplier_name_marginTop"
+        android:ems="10"
+        android:hint="@string/edit_supplier_name_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quantity_edit"
+        tools:text="Supplier Name" />
+
+    <EditText
+        android:id="@+id/supplier_phone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_supplier_phone_marginLeft"
+        android:layout_marginStart="@dimen/edit_supplier_phone_marginStart"
+        android:layout_marginTop="@dimen/edit_supplier_phone_marginTop"
+        android:ems="10"
+        android:hint="@string/edit_supplier_phone_hint"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/supplier_name_edit"
+        tools:text="555-555-1212" />
+</android.support.constraint.ConstraintLayout>
